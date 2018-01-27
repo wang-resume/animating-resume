@@ -4,7 +4,7 @@
     <ResumeEditor ref="resumeEditor" :markdown="currentMarkdown" :enableHtml="enableHtml"></ResumeEditor>
   </div>
 </template>
-
+ss
 <script>
   import StyleEditor from './components/StyleEditor'
   import ResumeEditor from './components/ResumeEditor'
@@ -24,9 +24,9 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是王琦
+* 非常感谢您能看这段彩蛋，如果耽误了您宝贵的时间，敬请原谅
+* 下面开始
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -115,34 +115,35 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `王琦
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+现工作单位:阿里巴巴
+职位：开发专家
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* 服务端开发专家 & 半个前端工程师
+* 熟练java，数据库，算法，分布式设计，微服务
+* 了解 nodejs，go，scala，angular
+* 有带团队经验
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 上海贝尔
+2. 秦苍科技(买单侠)
+3. 瑞茂通(易煤网)
+4. 阿里巴巴
+
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/qwang1990)
+* [我的文章](http://songbingjia.cn)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
 
 `
       }
